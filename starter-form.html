@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Favorite Starter Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    nav a { margin-right: 10px; text-decoration: none; color: black; }
+    h1 { color: black; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; }
+    th, td { padding: 10px; text-align: center; }
+    img { display: block; margin-bottom: 10px; }
+    .starter { display: inline-block; margin: 10px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gen1.html">Gen I</a>
+    <a href="gen2.html">Gen II</a>
+    <a href="gen3.html">Gen III</a>
+    <a href="starter-form.html">Starter Form</a>
+  <a href="about.html">About Me</a></nav>
+  
+<h1>Your Favorite Starter Pokémon</h1>
+<form action="#" method="post">
+  <label for="starter">Pick a starter:</label><br>
+  <select id="starter" name="starter" required>
+    <option value="">--Select--</option>
+    <option>Bulbasaur</option>
+    <option>Charmander</option>
+    <option>Squirtle</option>
+    <option>Chikorita</option>
+    <option>Cyndaquil</option>
+    <option>Totodile</option>
+    <option>Treecko</option>
+    <option>Torchic</option>
+    <option>Mudkip</option>
+  </select><br><br>
+
+  <label for="reason">Why is this your favorite?</label><br>
+  <textarea id="reason" name="reason" rows="4" cols="40" required></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
